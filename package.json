@@ -1,0 +1,21 @@
+{
+	"name": "bmd-videohub",
+	"version": "1.1.0",
+	"description": "Blackmagic Design Videohub for Typescript",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0",
+		"compile": "tsc --declaration",
+		"dev": "tsc-watch --onSuccess \"node --trace-warnings dist/test.js\" --pretty --preserveWatchOutput"
+	},
+	"homepage": "https://github.com/rocketbeans/bmd-videohub",
+	"author": "Tobias Schwarz",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^12.12.31",
+		"tsc-watch": "^4.2.3",
+		"typescript": "^3.8.3"
+	}
+}
